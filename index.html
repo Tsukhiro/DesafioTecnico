@@ -14,7 +14,7 @@
     <!-- Navbar -->
 
     <nav class="navbar navbar-dark bg-dark" id="input-main">
-        <a class="navbar-brand" href="#">Desafio Técnico</a>
+        <a class="navbar-brand" href="#">Wagner Vitor Novais</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,14 +22,14 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+              <a class="nav-link" href="#">Início <span class="sr-only">(página atual)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="https://tsukhiro.github.io/My-Portfolio/">Meu Portfólio</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Veja mais
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Ação</a>
@@ -45,14 +45,17 @@
 
     <!-- End Navbar -->
 
+    <!-- Container -->
+
+<main>
     <div class="jumbotron">
-        <h1 class="display-4">Olá, mundo!</h1>
-        <p class="lead">lorem</p>
+        <h1 class="display-4">Olá, mundo! ;)</h1>
+        <p class="lead">Alguma descrição aqui.</p>
         <hr class="my-4">
         <p>Insira sua localização abaixo e iremos mostrar algumas sugestões de atividades.</p>
         <div class="input-group mb-3">
             <select class="custom-select" id="inputGroupSelect01" onchange="mostrarFoto(value)">
-              <option selected>Insira sua localização...</option>
+              <option selected value="vazio">Insira sua localização...</option>
               <option value="Acre (AC)">Acre (AC)</option>
               <option value="Alagoas (AL)">Alagoas (AL)</option>
               <option value="Amapá (AP)">Amapá (AP)</option>
@@ -85,8 +88,9 @@
             <div id="descricao"></div>
           </div>
       </div>
+  </main>
 
-
+    <!-- End container -->
 
 </body>
 <script src="./script.js"></script>
