@@ -9,6 +9,13 @@ Proposta elaborada pela Probono. Projeto Front-End desenvolvido em formato de De
 ## 🎨 Previw do Layout
 
 <br>
+Link: https://desafiotecnico.netlify.app/
+<br>
+
+> Versão Desktop & Mobile
+![Versão Desktop](https://user-images.githubusercontent.com/89936463/158834718-3ae12e46-2c5b-4f7e-8e7c-351cd949a7b4.PNG)
+
+![Versão Mobile](https://user-images.githubusercontent.com/89936463/158834759-f8b9dcc6-6a6f-41bb-a7d4-4d26c439cefd.PNG)
 
 
 
