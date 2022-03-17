@@ -113,7 +113,7 @@ changeLocal = () => {
     }
 
     if(select.value === 'Tocantins (TO)'){
-        descricao.innerHTML = "O que fazer em Tocantins?  Praia da Graciosa. ... Ilha Canela... Parque Cesamar... Cachoeira do Roncador... Cachoeira do Evilson...  Praça Dos Girassóis... Cachoeira do Formiga... Praia do Prata. Almas. O que fazer em Almas. ... Rio da Conceição. ... Dianópolis. ... Taguatinga. ... Aurora do Tocantins e Lavandeira."
+        descricao.innerHTML = "O que fazer em Tocantins?  Praia da Graciosa... Ilha Canela... Parque Cesamar... Cachoeira do Roncador... Cachoeira do Evilson...  Praça Dos Girassóis... Cachoeira do Formiga... Praia do Prata. Almas. O que fazer em Almas. ... Rio da Conceição. ... Dianópolis. ... Taguatinga. ... Aurora do Tocantins e Lavandeira."
     }
 
     
