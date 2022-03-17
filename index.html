@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Desafio Técnico</title>
+</head>
+<body class="bg">
+    
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-dark bg-dark" id="input-main">
+        <a class="navbar-brand" href="#">Desafio Técnico</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Ação</a>
+                <a class="dropdown-item" href="#">Outra ação</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Algo mais aqui</a>
+              </div>
+            </li>
+          </ul>
+          </form>
+        </div>
+      </nav>
+
+    <!-- End Navbar -->
+
+    <div class="jumbotron">
+        <h1 class="display-4">Olá, mundo!</h1>
+        <p class="lead">lorem</p>
+        <hr class="my-4">
+        <p>Insira sua localização abaixo e iremos mostrar algumas sugestões de atividades.</p>
+        <div class="input-group mb-3">
+            <select class="custom-select" id="inputGroupSelect01" onchange="mostrarFoto(value)">
+              <option selected>Insira sua localização...</option>
+              <option value="Acre (AC)">Acre (AC)</option>
+              <option value="Alagoas (AL)">Alagoas (AL)</option>
+              <option value="Amapá (AP)">Amapá (AP)</option>
+              <option value="Amazonas (AM)">Amazonas (AM)</option>
+              <option value="Bahia (BA)">Bahia (BA)</option>
+              <option value="Ceará (CE)">Ceará (CE)</option>
+              <option value="Distrito Federal (DF)">Distrito Federal (DF)</option>
+              <option value="Espírito Santo (ES)">Espírito Santo (ES)</option>
+              <option value="Goiás (GO)">Goiás (GO)</option>
+              <option value="Maranhão (MA)">Maranhão (MA)</option>
+              <option value="Mato Grosso (MT)">Mato Grosso (MT)</option>
+              <option value="Mato Grosso do Sul (MS)">Mato Grosso do Sul (MS)</option>
+              <option value="Minas Gerais (MG)">Minas Gerais (MG)</option>
+              <option value="Pará (PA)">Pará (PA)</option>
+              <option value="Paraíba (PB)">Paraíba (PB)</option>
+              <option value="Paraná (PR)">Paraná (PR)</option>
+              <option value="Pernambuco (PE)">Pernambuco (PE)</option>
+              <option value="Piauí (PI)">Piauí (PI)</option>
+              <option value="Rio de Janeiro (RJ)">Rio de Janeiro (RJ)</option>
+              <option value="Rio Grande do Norte (RN)">Rio Grande do Norte (RN)</option>
+              <option value="Rio Grande do Sul (RS)">Rio Grande do Sul (RS)</option>
+              <option value="Rondônia (RO)">Rondônia (RO)</option>
+              <option value="Roraima (RR)">Roraima (RR)</option>
+              <option value="Santa Catarina (SC)">Santa Catarina (SC)</option>
+              <option value="São Paulo (SP)">São Paulo (SP)</option>
+              <option value="Sergipe (SE)">Sergipe (SE)</option>
+              <option value="Tocantins (TO)">Tocantins (TO)</option>
+        
+            </select>
+            <div id="descricao"></div>
+          </div>
+      </div>
+
+
+
+</body>
+<script src="./script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
