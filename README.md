@@ -2,8 +2,7 @@
 
 <br>
 
-Proposta elaborada pela Probono. Projeto Front-End desenvolvido em formato de Desafio Técnico. Qualquer dúvida entre em contato. ;)
-
+Proposta elaborada pela Probono. Projeto Front-End desenvolvido em formato de Desafio Técnico com o objetivo de apresentar uma interface web onde o usuário inseri sua localização (no Brasil) e é apresentado propostas de atividades / turismo para se fazer no local.
 <br>
 
 ## 🎨 Previw do Layout
