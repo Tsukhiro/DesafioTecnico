@@ -1,90 +1,59 @@
-## 💻 Sobre o projeto
+<h1 align="center">tourist guide</h1>
 
 <br>
 
-Proposta elaborada pela Probono. Projeto Front-End desenvolvido em formato de Desafio Técnico com o objetivo de apresentar uma interface web onde o usuário inseri sua localização (no Brasil) e é apresentado propostas de atividades / turismo para se fazer no local.
+<p align="center">Proposta elaborada pela Probono. Projeto Front-End desenvolvido em formato de Desafio Técnico com o objetivo de apresentar uma interface web onde o usuário inseri sua localização (no Brasil) e é apresentado propostas de atividades / turismo para se fazer no local.</p>
+<h4 align="center"> 
+	🚧 Status: Projeto Finalizado  🚧
+</h4>
+
+<br>
+<br>
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Bootstrap](	https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+<br>
 <br>
 
 ## 🎨 Previw do Layout
 
 <br>
-Link Netlify: https://desafiotecnico.netlify.app/
-Link Github Pages: https://tsukhiro.github.io/DesafioTecnico/
 <br>
 
-> Versão Desktop & Mobile
-![Versão Desktop](https://user-images.githubusercontent.com/89936463/158834718-3ae12e46-2c5b-4f7e-8e7c-351cd949a7b4.PNG)
+Link Netlify: https://desafiotecnico.netlify.app/
 
+<br>
+
+![Versão Desktop](https://user-images.githubusercontent.com/89936463/158834718-3ae12e46-2c5b-4f7e-8e7c-351cd949a7b4.PNG)
 ![Versão Mobile](https://user-images.githubusercontent.com/89936463/158834759-f8b9dcc6-6a6f-41bb-a7d4-4d26c439cefd.PNG)
 
-
-
-## 🚀 Como executar o projeto
-
 <br>
-
-#### 🧭 Rodando a aplicação web (Frontend)
-
 <br>
 
 
-```bash
+## 🤝 Autor & Colaboradores
 
-# Clone este repositório
-$ git clone git@github.com:Tsukhiro/DesafioTecnico.git
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-DesafioTecnico
-
-# Vá para a pasta da aplicação Front End
-$ cd web
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
-```
-
----
-
-#### 🧭 Github Desktop
+<a href="https://www.linkedin.com/in/wagner-vitor-novais">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/89936463?s=400&u=e299a61a15d52f1558fb44bd041f81fcbaa06b41&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Wagner Vitor Novais</b></sub></a> <a href="https://github.com/Tsukhiro" title="Wagner">🚀</a>
 
 <br>
 
-1- Entre no GitHub.com e no GitHub Desktop antes de começar a clonar.
+Feito com toda dedicação por Wagner Vitor 👋🏽 Entre em contato!
 
-2- No GitHub.com, navegue até a página principal do repositório.
+[![Linkedin Badge](https://img.shields.io/badge/-Wagner-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wagner-vitor-novais/)](https://www.linkedin.com/in/wagner-vitor-novais/)
 
-3- Acima da lista de arquivos, clique em  código.
 
-4- Click  Open with GitHub Desktop to clone and open the repository with GitHub Desktop.
 
-5- Clique em Choose... (Escolher...). Em seguida, navegue pelo Windows Explorer (Explorador do Windows) até o local em que você pretende clonar o repositório.
 
-Observação: se o repositório estiver configurado para usar o LFS, você deverá inicializar o Git LFS.
 
-6- Clique em Clone (Clonar).
 
-Pronto. ;) Qualquer dúvida fico a disposição.
 
-<br>
-
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Tsukhiro">
-        <sub>
-          <b>Wagner Vitor</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
